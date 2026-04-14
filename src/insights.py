@@ -1,9 +1,13 @@
 import requests
 import os
 from dotenv import load_dotenv
+from streamlit import secrets
 
-load_dotenv()
-API_KEY = os.getenv("GEMINI_API_KEY")
+try:
+    API_KEY = secrets["GEMINI_API_KEY"]
+except (FileNotFoundError, KeyError):
+    load_dotenv()
+    API_KEY = os.getenv("GEMINI_API_KEY")
 
 def generate_text_explanation(df):
     top_pos = df[df['Impact_log'] > 0].sort_values('Impact_log', ascending=False).head(3)
