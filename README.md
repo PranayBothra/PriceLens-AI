@@ -59,7 +59,9 @@ Models tested:
 * XGBoost
 
 Final model selected based on performance and generalization using HyperParameter Tuning and Cross Validation
+ Best Models: Gradient Boosting and XGBoost 
 Selected Model: Gradient Boosting
+R² Score: ~0.89 
 
 ### 🔹 Explainable AI
 
