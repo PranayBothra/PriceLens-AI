@@ -13,16 +13,27 @@
 </p>
 
 ---
+## 🌐 Live Demo
 
+<p align="center">
+  <a href="https://pricelens-ai.streamlit.app/">
+    <img src="https://img.shields.io/badge/🚀%20Launch%20App-PriceLens%20AI-blue?style=for-the-badge&logo=streamlit" />
+  </a>
+</p>
+
+---
 ## 🚀 Overview
 
-PriceLens AI is a complete machine learning system that predicts laptop prices and explains the reasoning behind each prediction.
+PriceLens AI predicts laptop prices with high accuracy and explains *why* a specific price is predicted using SHAP and AI-generated insights.
 
-Unlike typical ML projects, this focuses on:
+It transforms a black-box ML model into an interpretable decision system.
 
-* 📊 Feature-level explainability (SHAP)
-* 🧠 Human-readable reasoning
-* 🤖 AI-generated insights (LLM)
+---
+## 💡 Why This Project Stands Out
+
+- Goes beyond prediction → provides explainability (SHAP)
+- Bridges ML + LLMs for human-friendly insights
+- Built as a complete end-to-end system, not just a model
 
 ---
 
@@ -148,11 +159,6 @@ For deployment, use Streamlit Secrets.
 
 ---
 
-## 🌐 Live Demo
-
-https://pricelens-ai.streamlit.app/
-
----
 
 ## 📌 Key Learnings
 
